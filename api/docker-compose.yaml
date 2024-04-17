@@ -16,3 +16,5 @@ services:
       DB_CLIENT: "sqlite3"
       DB_FILENAME: "/directus/database/data.db"
       WEBSOCKETS_ENABLED: "true"
+      ACCESS_TOKEN_TTL: "1000d"
+      REFRESH_TOKEN_TTL: "1000d"
